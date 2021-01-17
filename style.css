@@ -1,0 +1,50 @@
+body {
+    background-image: url("https://st3.depositphotos.com/1027198/18721/i/1600/depositphotos_187213776-stock-photo-selection-traditional-american-food-wooden.jpg");
+    color: white;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(70, 98, 190);
+    margin-right: 30%;
+    margin-left: 30%;
+    padding: 20px;
+    border-radius: 20%;
+    opacity: 0.95;
+}
+
+main {
+    margin-right: 30%;
+    margin-left: 30%;
+    padding: 20px;
+    background-color: rgb(179, 73, 73);
+    border-radius: 10%;
+    opacity: 0.95;
+}
+
+#submit {
+    background-color: rgb(26, 8, 128);
+    width: 50%;
+    height: 3em;
+    color: white;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+#survey-form {
+    position: relative;
+    left: 20%;
+}
+
+@media only screen and (max-width: 1000px) {
+    header, main {
+        margin-right: 20%;
+        margin-left:20%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    header, main {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+}
