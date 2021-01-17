@@ -48,3 +48,10 @@ main {
         margin-left: 5%;
     }
 }
+@media only screen and (max-width: 600px){
+    #survey-form {
+        position: relative;
+        left: 0%;
+    }
+
+}
